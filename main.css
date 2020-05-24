@@ -1,0 +1,113 @@
+/* Online Névjegy Brackets-ben */
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* --- -------- --- */
+
+body {
+  font-family: Ariel;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://imgur.com/EPASp9f.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  /* background-color: hsla(60, 100%, 50%, 0.4); /* sárga */
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  /* background-color: hsla(0, 0%, 100%, 0.5); alap */
+  background-color: hsla(195, 53%, 79%, 0.5);  /* lightblue; */
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.head {
+  /* background-color: hsla(120, 100%, 50%, 0.3); /* zöld */
+}
+
+.head, .content {
+  color: rgba(1,1,1,0.8);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .about {
+  margin-bottom: 5%;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.profile-image {
+  /* background-color: hsla(290, 100%, 50%, 0.4); /* lila */
+  margin-top: -60px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(90%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+.name-headline {
+  /* background-color: hsla(290, 100%, 50%, 0.4); /* lila */
+}
+
+h1 {
+  font-family: Verdana;
+  /* text-transform: uppercase; */
+  font-size: 24px;
+}
+
+a, span {
+  color: rgb(94, 94, 92);
+}
+
+span {
+  font-family: "Times New Roman";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content {
+  /* background-color: hsla(120, 100%, 50%, 0.3);  /* zöld */
+  padding: 5% 5%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  line-height: 20px;
+}
+
+.about {
+  /* background-color: hsla(290, 100%, 50%, 0.4); /* lila */
+}
+
+.links {
+  /* background-color: hsla(290, 100%, 50%, 0.4); /* lila */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* --- End of file --- */
